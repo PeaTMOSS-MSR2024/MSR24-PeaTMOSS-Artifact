@@ -53,7 +53,7 @@ The content for each specific model hub is listed in the table below:
 We also offer two different formats of our datasets. An overview of these two formats can be found in the table below:
 |  Formats |                                                                    Description                                                                   |  Size  |
 |:--------:|:------------------------------------------------------------------------------------------------------------------------------------------------:|:------:|
-| Metadata |                          It contains only the metadata of the PTM packagesr and a subset of the GitHub project metadata.                         |  8.32GB |
+| Metadata |                          It contains only the metadata of the PTM packagesr and a subset of the GitHub project metadata.                         |  8.32GB (7.12GB + 1.20 GB enhanced metadata) |
 |   Full   | It contains all metadata, adding the PTM package contents in each published version, and git history of the main branhes of the GitHub projects. | 48.2TB |
 
 ## Dependencies

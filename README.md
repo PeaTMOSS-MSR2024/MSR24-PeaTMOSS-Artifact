@@ -4,7 +4,6 @@ This repository contains information about the **P**re-**T**rained **M**odels in
 ## Table of Contents
 - [PeaTMOSS Demos](#peatmoss-demos)
   - [About](#about)
-  - [Globus](#globus)
   - [Metadata Description](#metadata-description)
   - [Dependencies](#dependencies)
   - [How To Install](#how-to-install)
@@ -86,7 +85,7 @@ After [installing the anaconda environment](#how-to-install), each demo script c
 This section will explain how to use SQL and SQLAlchemy to interact with the database to answer the research questions outlined in the proposal. 
 
 ### Using SQL to query the database
-One option users have to interact with the metadata dataset is to use plain SQL. The metadata dataset is stored in a SQLite database file called PeaTMOSS.db, which can be found in the [Globus Share](https://transfer.rcac.purdue.edu/file-manager?origin_id=c4ec6812-3315-11ee-b543-e72de9e39f95&origin_path=%2F). This file can be queried through standard SQL queries, and this can be done from a terminal using sqlite3: https://sqlite.org/cli.html. Single queries can be executed like
+One option users have to interact with the metadata dataset is to use plain SQL. The metadata dataset is stored in a SQLite database file called PeaTMOSS.db, which can be found in the [Anonymous Link]. This file can be queried through standard SQL queries, and this can be done from a terminal using sqlite3: https://sqlite.org/cli.html. Single queries can be executed like
 ```bash
 $ sqlite3 PeaTMOSS.db '{query statement}'
 ```

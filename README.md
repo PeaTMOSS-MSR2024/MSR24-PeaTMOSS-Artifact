@@ -82,7 +82,7 @@ Alternatively, you can navigate to each packages respective pages and install th
 After [installing the anaconda environment](#how-to-install), each demo script can be run using `python3 script_name.py`
 
 ## Tutorial
-This section will explain how to use SQL and SQLAlchemy to interact with the database to answer the research questions outlined in the proposal. 
+This section will explain how to use SQL and SQLAlchemy to interact with the database to answer the research questions outlined in some of the future work we propose. 
 
 ### Using SQL to query the database
 One option users have to interact with the metadata dataset is to use plain SQL. The metadata dataset is stored in a SQLite database file called PeaTMOSS.db, which can be found in the [Anonymous Link]. This file can be queried through standard SQL queries, and this can be done from a terminal using sqlite3: https://sqlite.org/cli.html. Single queries can be executed like

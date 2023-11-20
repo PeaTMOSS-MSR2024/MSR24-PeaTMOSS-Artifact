@@ -10,7 +10,7 @@ submission to MSR 2024.
 - **PeaTMOSS Dataset** ($4, 6)
   - `README.md`
   - `PeaTMOSS.sql`
-  - `Examples/`
+  - `/Examples`
 
 - **/LLM-Pipeline** ($5)
   - `README.md`

@@ -2,8 +2,7 @@
 
 ## About
 
-This repository contains the source code that we created in assistance for our
-submission to MSR 2024.
+> This repository contains the source code and dataset examples for our paper `PeaTMOSS: A Dataset and Initial Analysis of Pre-Trained Models in Open-Source Software`.
 
 ## Repository Structure
 

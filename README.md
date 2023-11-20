@@ -1,7 +1,34 @@
-# PeaTMOSS-Demos
-This repository contains information about the **P**re-**T**rained **M**odels in **O**pen-**S**ource **S**oftware (***PeaTMOSS***) dataset.
+# MSR 2024 Artifact
 
-## Table of Contents
+## About
+
+This repository contains the source code that we created in assistance for our
+submission to MSR 2024.
+
+## Repository Structure
+
+- **PeaTMOSS Dataset** ($4, 6)
+  - `README.md`
+  - `PeaTMOSS.sql`
+  - `Examples/`
+
+- **/LLM-Pipeline** ($5)
+  - `README.md`
+  - `Accurate_pipeline`
+  - `Cheap_pipeline`
+
+- **/License-Analysis** ($7)
+  - `README.md`
+  - `analyzeIncompatibilities/`
+  - `data/`
+  - `figures/`
+  - `ghRepos`
+  - `projectPairings/`
+  - `ptmProjects/`
+
+  
+
+## PeaTMOSS Dataset
 - [PeaTMOSS Demos](#peatmoss-demos)
   - [About](#about)
   - [Metadata Description](#metadata-description)
@@ -36,7 +63,7 @@ tar --strip-components=4 -xvzf {name}.tar.gz
 If you do not do this, you will have 4 extraneous parent directories that encase the repository.
 
 
- 
+The script that we used to generate figures in $6 is available in [script_plot.py](/PeaTMOSS-Demo/script_plot.py)
 ## Metadata Description
 The following model hubs are captured in our database:
 
